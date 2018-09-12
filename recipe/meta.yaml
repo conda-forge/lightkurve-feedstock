@@ -24,6 +24,7 @@ requirements:
     - numpy >=1.10  # required by autograd via oktopus
     - oktopus
     - pandas
+    - bokeh
     - pip
     - pytest-runner
     - python
@@ -37,6 +38,7 @@ requirements:
     - matplotlib
     - {{ pin_compatible('numpy') }}
     - oktopus
+    - bokeh
     - pandas
     - python
     - requests
