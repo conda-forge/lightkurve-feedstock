@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "1.0b22" %}
-{% set sha256 = "54ed51ebb71828a4b1cdcc4c371956c67e0d60f41cf804bddcce9536086e8e4d" %}
+{% set version = "1.0b23" %}
+{% set sha256 = "f01229707e40dad9a4a1a5b4900a43552b476e97eb5d4e7903ae6d715d0a63b2" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - numpy >=1.10  # required by autograd via oktopus
     - oktopus
     - pandas
-    - bokeh
+    - bokeh >= 1.0 # required for .interact() as of 1.0b23
     - pip
     - pytest-runner
     - python
