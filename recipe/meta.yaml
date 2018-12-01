@@ -24,7 +24,7 @@ requirements:
     - numpy >=1.10  # required by autograd via oktopus
     - oktopus
     - pandas
-    - bokeh >= 1.0 # required for .interact() as of 1.0b23
+    - bokeh >=1.0 # required for .interact() as of 1.0b23
     - pip
     - pytest-runner
     - python
