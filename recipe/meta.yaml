@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "1.0b25" %}
-{% set sha256 = "5a3e8c50220d846bb20b5c8cb219a4a750ded71176d0a45e1379634248362c64" %}
+{% set version = "1.0b26" %}
+{% set sha256 = "12b09510b03139c1f8e97302208fdee25df63d4a452aa945fbb75059a7875eaf" %}
 
 package:
   name: {{ name|lower }}
@@ -31,6 +31,9 @@ requirements:
     - requests
     - scipy
     - tqdm
+    - scikit-learn
+    - pybind11
+    - celerite
   run:
     - astropy
     - astroquery
@@ -44,13 +47,15 @@ requirements:
     - requests
     - scipy
     - tqdm
-
+    - scikit-learn
+    - pybind11
+    - celerite
 test:
   imports:
     - lightkurve
 
 about:
-  home: https://lightkurve.keplerscience.org/
+  home: https://docs.lightkurve.org
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -60,7 +65,7 @@ about:
     The lightkurve Python package offers a beautiful and user-friendly way to
     analyze astronomical flux time series data, in particular the pixels and
     lightcurves obtained by NASA’s Kepler, K2, and TESS missions.
-  doc_url: https://lightkurve.keplerscience.org/
+  doc_url: https://docs.lightkurve.org
   dev_url: https://github.com/KeplerGO/lightkurve
 
 extra:
