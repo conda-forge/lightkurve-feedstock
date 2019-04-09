@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About lightkurve
 ================
 
@@ -11,18 +7,24 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: A beautiful package for astronomical flux time series analysis in Python
+Summary: A friendly package for Kepler & TESS time series analysis in Python.
 
-The lightkurve Python package offers a beautiful and user-friendly way to
-analyze astronomical flux time series data, in particular the pixels and
-lightcurves obtained by NASA’s Kepler, K2, and TESS missions.
+Lightkurve is a community-developed, open-source Python package which offers
+a beautiful and user-friendly way to analyze astronomical flux time series data,
+in particular the pixels and lightcurves obtained by NASA's Kepler and TESS exoplanet missions.
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/lightkurve-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/lightkurve-feedstock)
+
+<table><tr>
+    <td>All platforms:</td>
+    <td>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
