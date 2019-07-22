@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "86a129f62b89c5271ed313115273ce8bcdabeada46e0d9449a1ded54796b9a7e" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "cf726e2b2185c9d1c17773f4a884ceb43501a93306188a262e94d20ce7e689b3" %}
 
 package:
   name: {{ name|lower }}
@@ -34,6 +34,7 @@ requirements:
     - scikit-learn
     - pybind11
     - celerite
+    - uncertainties
   run:
     - python
     - astropy >=1.3
@@ -50,6 +51,7 @@ requirements:
     - scikit-learn
     - pybind11
     - celerite
+    - uncertainties
 test:
   imports:
     - lightkurve
