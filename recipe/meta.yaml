@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "1.11.2" %}
-{% set sha256 = "b3e791ca9123027d75e5b47167e5cdc49587953bb69ca4df378557589c8e04ee" %}
+{% set version = "1.11.3" %}
+{% set sha256 = "3fe685bae01fed6ba78a08d83991a2296890def44849d6ae12facc40a16aed04" %}
 
 package:
   name: {{ name|lower }}
