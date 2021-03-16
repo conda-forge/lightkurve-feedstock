@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "2.0.5" %}
-{% set sha256 = "997c477d4f2bad020efcecce22eb448caa64069cab7e50cd3d0b9bd5fbaf28e2" %}
+{% set version = "2.0.6" %}
+{% set sha256 = "4a4adc741a6788e30ecbde570673ec5513db1ffd0403743e31f7849579831804" %}
 
 package:
   name: {{ name|lower }}
@@ -23,41 +23,41 @@ requirements:
     - pip
     - pytest-runner
 
-    - astropy >=1.3
-    - astroquery >=0.3.9
-    - beautifulsoup4
+    - astropy >=4.1
+    - astroquery >=0.3.10
+    - beautifulsoup4 >=4.6.0
     - bokeh >=1.0
     - fbpca >=1.0
     - matplotlib-base >=1.5.3
     - memoization >=0.3.1
     - numpy >=1.11
-    - oktopus
-    - pandas
+    - oktopus >=0.1.2
+    - pandas >=1.1.4
     - patsy >=0.5.1
-    - requests
+    - requests >=2.22.0
     - scikit-learn >=0.24.0
     - scipy >=0.19.0
     - tqdm >=4.25.0
-    - uncertainties
+    - uncertainties >=3.1.4
   run:
     - python >=3.6
 
-    - astropy >=1.3
-    - astroquery >=0.3.9
-    - beautifulsoup4
+    - astropy >=4.1
+    - astroquery >=0.3.10
+    - beautifulsoup4 >=4.6.0
     - bokeh >=1.0
     - fbpca >=1.0
     - matplotlib-base >=1.5.3
     - memoization >=0.3.1
     - numpy >=1.11
-    - oktopus
-    - pandas
+    - oktopus >=0.1.2
+    - pandas >=1.1.4
     - patsy >=0.5.1
-    - requests
+    - requests >=2.22.0
     - scikit-learn >=0.24.0
     - scipy >=0.19.0
     - tqdm >=4.25.0
-    - uncertainties
+    - uncertainties >=3.1.4
 test:
   imports:
     - lightkurve
@@ -74,7 +74,7 @@ about:
     a beautiful and user-friendly way to analyze astronomical flux time series data,
     in particular the pixels and lightcurves obtained by NASA's Kepler and TESS exoplanet missions.
   doc_url: https://docs.lightkurve.org
-  dev_url: https://github.com/KeplerGO/lightkurve
+  dev_url: https://github.com/lightkurve/lightkurve
 
 extra:
   recipe-maintainers:
