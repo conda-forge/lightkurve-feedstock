@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lightkurve-feed
 
 Summary: A friendly package for Kepler & TESS time series analysis in Python.
 
-Development: https://github.com/KeplerGO/lightkurve
+Development: https://github.com/lightkurve/lightkurve
 
 Documentation: https://docs.lightkurve.org
 
