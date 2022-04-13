@@ -17,45 +17,45 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - poetry
     - poetry-core
     - pip
     - pytest-runner
 
-    - astropy >=4.1
+    - astropy >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
-    - bokeh >=1.0
+    - bokeh >=1.1
     - fbpca >=1.0
-    - matplotlib-base >=1.5.3
+    - matplotlib-base >=3.1
     - memoization >=0.3.1
-    - numpy >=1.11
+    - numpy >=1.18
     - oktopus >=0.1.2
     - pandas >=1.1.4
     - patsy >=0.5.1
     - requests >=2.22.0
     - scikit-learn >=0.24.0
-    - scipy >=0.19.0
+    - scipy >=1.7
     - tqdm >=4.25.0
     - uncertainties >=3.1.4
   run:
-    - python >=3.6
+    - python >=3.8
 
-    - astropy >=4.1
+    - astropy >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
-    - bokeh >=1.0
+    - bokeh >=1.1
     - fbpca >=1.0
-    - matplotlib-base >=1.5.3
+    - matplotlib-base >=3.1
     - memoization >=0.3.1
-    - numpy >=1.11
+    - numpy >=1.18
     - oktopus >=0.1.2
     - pandas >=1.1.4
     - patsy >=0.5.1
     - requests >=2.22.0
     - scikit-learn >=0.24.0
-    - scipy >=0.19.0
+    - scipy >=1.7
     - tqdm >=4.25.0
     - uncertainties >=3.1.4
 test:
