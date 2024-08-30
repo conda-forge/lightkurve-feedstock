@@ -26,7 +26,7 @@ requirements:
     - astropy >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
-    - bokeh >=1.1
+    - bokeh >=2.3.2
     - fbpca >=1.0
     - matplotlib-base >=3.1
     - memoization >=0.3.1
@@ -45,7 +45,7 @@ requirements:
     - astropy >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
-    - bokeh >=1.1
+    - bokeh >=2.3.2
     - fbpca >=1.0
     - matplotlib-base >=3.1
     - memoization >=0.3.1
