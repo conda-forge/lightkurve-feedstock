@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "2.4.2" %}
-{% set sha256 = "1b70d5d73fe7a82a38f24929e52bca022e07e314e0f3e90108c983a2ae1052bc" %}
+{% set version = "2.5.0" %}
+{% set sha256 = "53fbfb385f6085a23d3a5678569677229c4a8c5bf4c0c7582ac39fc415c1ee14" %}
 
 package:
   name: {{ name|lower }}
@@ -26,7 +26,7 @@ requirements:
     - astropy >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
-    - bokeh >=1.1
+    - bokeh >=2.3.2
     - fbpca >=1.0
     - matplotlib-base >=3.1
     - memoization >=0.3.1
@@ -45,7 +45,7 @@ requirements:
     - astropy >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
-    - bokeh >=1.1
+    - bokeh >=2.3.2
     - fbpca >=1.0
     - matplotlib-base >=3.1
     - memoization >=0.3.1
