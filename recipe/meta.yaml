@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -23,7 +23,7 @@ requirements:
     - pip
     - pytest-runner
 
-    - astropy >=5.0
+    - astropy-base >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
     - bokeh >=2.3.2
@@ -42,7 +42,7 @@ requirements:
   run:
     - python >=3.8
 
-    - astropy >=5.0
+    - astropy-base >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
     - bokeh >=2.3.2
