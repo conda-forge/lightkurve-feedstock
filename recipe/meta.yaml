@@ -7,23 +7,23 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install . -vv
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - poetry
     - poetry-core
     - pip
     - pytest-runner
 
-    - astropy >=5.0
+    - astropy-base >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
     - bokeh >=2.3.2
@@ -40,9 +40,9 @@ requirements:
     - tqdm >=4.25.0
     - uncertainties >=3.1.4
   run:
-    - python >=3.8
+    - python >={{ python_min }}
 
-    - astropy >=5.0
+    - astropy-base >=5.0
     - astroquery >=0.3.10
     - beautifulsoup4 >=4.6.0
     - bokeh >=2.3.2
@@ -59,6 +59,8 @@ requirements:
     - tqdm >=4.25.0
     - uncertainties >=3.1.4
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - lightkurve
 
