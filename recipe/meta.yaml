@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "2.5.0" %}
-{% set sha256 = "53fbfb385f6085a23d3a5678569677229c4a8c5bf4c0c7582ac39fc415c1ee14" %}
+{% set version = "2.5.1" %}
+{% set sha256 = "ea17a0fc97c1223c06baad007f0baf80c60fa46cf75c6f03c1e5c0f96b8240d2" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
