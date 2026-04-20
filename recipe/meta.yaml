@@ -1,6 +1,6 @@
 {% set name = "lightkurve" %}
-{% set version = "2.5.0" %}
-{% set sha256 = "53fbfb385f6085a23d3a5678569677229c4a8c5bf4c0c7582ac39fc415c1ee14" %}
+{% set version = "2.6.0" %}
+{% set sha256 = "181d2e68d623685aba030623c48e7480658b9fc03e978074446687fd2892a5d7" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
@@ -32,7 +32,7 @@ requirements:
     - memoization >=0.3.1
     - numpy >=1.18
     - oktopus >=0.1.2
-    - pandas >=1.1.4
+    - pandas >=1.3.6,<3
     - patsy >=0.5.1
     - requests >=2.22.0
     - scikit-learn >=0.24.0
@@ -51,7 +51,7 @@ requirements:
     - memoization >=0.3.1
     - numpy >=1.18
     - oktopus >=0.1.2
-    - pandas >=1.1.4
+    - pandas >=1.3.6,<3
     - patsy >=0.5.1
     - requests >=2.22.0
     - scikit-learn >=0.24.0
