@@ -32,7 +32,7 @@ requirements:
     - memoization >=0.3.1
     - numpy >=1.18
     - oktopus >=0.1.2
-    - pandas >=1.1.4
+    - pandas >=1.3.6,<3
     - patsy >=0.5.1
     - requests >=2.22.0
     - scikit-learn >=0.24.0
@@ -51,7 +51,7 @@ requirements:
     - memoization >=0.3.1
     - numpy >=1.18
     - oktopus >=0.1.2
-    - pandas >=1.1.4
+    - pandas >=1.3.6,<3
     - patsy >=0.5.1
     - requests >=2.22.0
     - scikit-learn >=0.24.0
